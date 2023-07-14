@@ -77,6 +77,7 @@ module.exports = {
     react: 'window.React',
     'react-dom': 'window.ReactDOM',
     antd: 'window.antd',
+    moment: 'window.moment'
   },
   module: {
     rules: [

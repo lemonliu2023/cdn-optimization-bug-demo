@@ -73,6 +73,11 @@ module.exports = {
     chunkFilename: 'static/js/[name].[contenthash].chunk.js',
     libraryTarget: 'umd',
   },
+  externals: {
+    react: 'window.React',
+    'react-dom': 'window.ReactDOM',
+    antd: 'window.antd',
+  },
   module: {
     rules: [
       {

@@ -1,0 +1,17 @@
+{
+  "presets": [
+    ["@babel/env", {
+      "loose": true,
+      "modules": false,
+      "targets": {
+        "browsers": [
+          "last 2 versions",
+          "ie 10",
+          "iOS >= 8",
+          "Android >= 4.4"
+        ]
+      }
+    }],
+    "@babel/preset-react"
+  ]
+}

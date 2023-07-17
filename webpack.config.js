@@ -74,10 +74,10 @@ module.exports = {
     libraryTarget: 'umd',
   },
   externals: {
-    react: 'window.React',
-    'react-dom': 'window.ReactDOM',
-    antd: 'window.antd',
-    moment: 'window.moment'
+    react: 'React',
+    'react-dom': 'ReactDOM',
+    antd: 'antd',
+    moment: 'moment'
   },
   module: {
     rules: [
